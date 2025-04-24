@@ -1,0 +1,36 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    height: 6.5vh;
+    padding: 1vh 2vw;
+}
+    .header-logo{
+        display: flex;
+    }
+        .logo{
+            width: 8vw;
+        }
+    
+        .header-buttons button{
+            padding: 1vh 2vw;
+            border-radius: 8px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+        }
+                .sign-in{
+                    color: rgba(255, 255, 255, 1.0);
+                    background: transparent;
+                }
+                    .sign-in:hover{
+                        background-color: rgba(64, 68, 69, 0.6);
+                    }
+                .sign-up{
+                    background-color: rgba(255, 255, 255, 1.0);
+                }
+                    .sign-up:hover{
+                        background-color: rgba(255, 255, 255, 0.7);
+                    }
