@@ -1,3 +1,4 @@
+/* -------------------- HEADER -------------------- */
 #header{
     display: flex;
     justify-content: space-between;
@@ -6,6 +7,12 @@
 
     height: 6.5vh;
     padding: 1vh 2vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
     .header-logo{
         display: flex;
@@ -34,3 +41,4 @@
                     .sign-up:hover{
                         background-color: rgba(255, 255, 255, 0.7);
                     }
+/* -------------------- MAIN -------------------- */
