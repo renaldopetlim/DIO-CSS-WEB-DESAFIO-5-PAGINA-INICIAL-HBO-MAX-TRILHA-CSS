@@ -1,4 +1,5 @@
 @media (max-width: 768px){
+        /* HEADER */
     .header-logo{
         margin-left: 10px;
     }
@@ -12,4 +13,32 @@
         width: 50%;
         margin-right: 10px;
     }
+        /* SECTION */
+    #section{
+        background-image: url(/assets/main/background-vert.jpg);
+    }
+            .div-1 img{
+                width: 300px;
+                padding: 0;
+            }
+            .div-1 h2{
+                font-size: 24px;
+                text-align: center;
+                padding: 0;
+            }
+            .div-1 h3{
+                font-size: 22px;
+                font-weight: 400;
+            }
+            .div-1 p{
+                text-align: center;
+                margin: 0 20px 0 20px;
+                line-height: 20px;
+            }
+
+            .div-2 h3{
+                font-size: 18px;
+                text-align: center;
+                padding: 0 25px;
+            }
 }
