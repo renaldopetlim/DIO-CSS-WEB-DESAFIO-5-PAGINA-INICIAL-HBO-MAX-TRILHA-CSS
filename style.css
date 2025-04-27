@@ -121,3 +121,128 @@
                 font-size: 22px;
                 letter-spacing: 4px;
             }
+/* -------------------- PLANS -------------------- */
+    #plans{
+        background-color: rgba(0, 0, 0, 1);
+        padding: 1rem 6rem 1rem 6rem;
+        width: 100%;
+    }
+        .plans-title{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 24px 0;
+        }
+            .plans-title h1{
+                color: white;
+                font-size: 36px;
+                font-weight: 600;
+            }
+        .plans-options{
+            display: flex;
+            justify-content: center;           
+        }
+            .div-3{
+                background-color: rgba(255, 255, 255, 0.1);
+                border-radius: 25px;
+                padding: 4px;
+            }
+                .plans-options button{
+                    width: 200px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                    padding: 12px;
+                    border-radius: 100px;
+                    border: none;
+                    cursor: pointer;
+                }
+                    .anual{
+                        background-color: transparent;
+                        color: white;
+                    }
+                            .anual:hover{
+                                background-color: rgba(255, 255, 255, 0.2);
+                            }
+        .plans{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+            margin: 20px 0 20px;
+        }
+            .plan{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: rgba(255, 255, 255, 1.0);
+                border-radius: 4px;
+                padding: 22px;
+                height: 350px;
+            }
+                    .plan h2{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                .plan hr{
+                    border: 1px solid rgba(128, 128, 128, 0.2);
+                    margin: 12px 0 12px 0;
+                }
+                .advantages{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 6px;
+                    padding: 8px 0 0 0;
+                }
+                    .advantages div{
+                        display: flex;
+                        gap: 12px;
+                    }
+                        .advantages img{
+                            width: 14px;
+                        }
+                        .advantages div p{
+                            font-size: 12px;
+                        }
+                .choice{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                    .choice div{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 16px;
+                    }
+                        .choice h3{
+                            display: flex;
+                            justify-content: center;
+                            align-items: end;
+                            font-weight: bold;
+                            font-size: 36px;
+                        }
+                            .choice h3 p{
+                                font-size: 14px;
+                                font-weight: 400;
+                                letter-spacing: 2px;
+                                color: gray;
+                            }
+                        .choice button{
+                            font-size: 12px;
+                            font-weight: 700;
+                            color: #ffffff;
+                            background-color: #4F6984;
+                            padding: 12px 24px;
+                            border: none;
+                            border-radius: 8px;
+                            cursor: pointer;
+                        }
+            .plans-info p{
+                color: rgba(255, 255, 255, 1.0);
+                font-size: 12px;
+                padding: 16px 0 16px 0;
+            }
+                .plans-info p a{
+                    text-decoration: none;
+                }
