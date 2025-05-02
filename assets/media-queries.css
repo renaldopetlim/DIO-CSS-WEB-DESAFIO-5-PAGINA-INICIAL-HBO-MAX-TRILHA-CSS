@@ -55,5 +55,11 @@
             .plans{
                 grid-template-columns: 1fr;
             }
-
+        /* CATEGORIES */
+        .cat-title{
+            padding: 10px 20px;
+        }
+            .cat-title h1{
+                font-size: 20px;
+            }
 }
