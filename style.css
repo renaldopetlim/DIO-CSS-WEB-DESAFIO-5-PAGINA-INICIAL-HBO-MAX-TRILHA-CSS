@@ -259,3 +259,26 @@
                 color: rgba(255, 255, 255, 0.9);
                 text-align: center;
             }
+        .cat-scroll{
+            overflow-x: scroll;
+        }
+            .cat-descriptions{
+                display: flex;
+                flex-wrap: wrap;
+            }
+                .cat-desc-flex{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    gap: 8px;
+                }
+                    .cat-descriptions h2{
+                        font-size: 20px;
+                        text-align: center;
+                        color: rgba(255, 255, 255, 1.0);
+                    }
+                    .cat-descriptions h3{
+                        font-size: 12px;
+                        text-align: center;
+                        color: rgba(255, 255, 255, 0.8);
+                    }
