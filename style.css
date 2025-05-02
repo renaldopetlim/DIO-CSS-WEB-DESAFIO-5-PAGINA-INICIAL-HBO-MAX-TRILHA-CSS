@@ -264,13 +264,19 @@
         }
             .cat-descriptions{
                 display: flex;
-                flex-wrap: wrap;
+                min-width: 2040px;
             }
                 .cat-desc-flex{
                     display: flex;
                     flex-direction: column;
                     justify-content: end;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: top center;
+                    width: 100%;
                     gap: 8px;
+                    height: 52vh;
+                    padding: 0 0 12px 0;
                 }
                     .cat-descriptions h2{
                         font-size: 20px;
@@ -282,3 +288,34 @@
                         text-align: center;
                         color: rgba(255, 255, 255, 0.8);
                     }
+                    .block{
+                        font-size: 12px;
+                        color: black;
+                    }
+                            .action{
+                                background-image: url(/assets/main/section/carrousel/drama-1.0.jpg);
+                            }
+                            .reality{
+                                background-image: url(/assets/main/section/carrousel/reality.jpg);
+                            }
+                            .novelas{
+                                background-image: url(/assets/main/section/carrousel/novelas.jpg);
+                            }
+                            .movies{
+                                background-image: url(/assets/main/section/carrousel/movies.jpg);
+                            }
+                            .comedy{
+                                background-image: url(/assets/main/section/carrousel/comedy.jpg);
+                            }
+                            .documentary{
+                                background-image: url(/assets/main/section/carrousel/documentary.jpg);
+                            }
+                            .futebol{
+                                background-image: url(/assets/main/section/carrousel/sports.jpg);
+                            }
+                            .drama{
+                                background-image: url(/assets/main/section/carrousel/drama.jpg);
+                            }
+                            .family{
+                                background-image: url(/assets/main/section/carrousel/family.jpg);
+                            }
