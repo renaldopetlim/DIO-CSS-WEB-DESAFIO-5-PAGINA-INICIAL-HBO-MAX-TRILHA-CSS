@@ -319,3 +319,16 @@
                             .family{
                                 background-image: url(/assets/main/section/carrousel/family.jpg);
                             }
+/* -------------------- QUESTIONS -------------------- */
+    #questions{
+        padding: 80px 180px 40px 180px;
+        background-color: rgba(0, 0, 0, 1);
+    }
+        .questions-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .questions-logo img{
+                width: 280px;
+            }
