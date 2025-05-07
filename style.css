@@ -343,10 +343,16 @@
                 gap: 16px;
             }
                 .questions-number p{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 56px;
+                    height: 56px;
                     background: linear-gradient(#2E3F4D, #4F6984);
-                    padding: 18px;
+                    padding: 16px;
                     font-size: 24px;
                     font-weight: 700;
+                    border-radius: 50%;
                 }
 
 
