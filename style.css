@@ -321,14 +321,38 @@
                             }
 /* -------------------- QUESTIONS -------------------- */
     #questions{
-        padding: 80px 180px 40px 180px;
+        padding: 60px 180px 40px 180px;
         background-color: rgba(0, 0, 0, 1);
     }
         .questions-logo{
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 20px 0 20px 0;
         }
             .questions-logo img{
                 width: 280px;
             }
+        .questions-text{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+            .questions-sects{
+                display: flex;
+                gap: 16px;
+            }
+                .questions-number p{
+                    background: linear-gradient(#2E3F4D, #4F6984);
+                    padding: 18px;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+
+
+                    .questions-text p{
+                        color: #ffffff;
+                    }
+                    .questions-text h2{
+                        color: #ffffff;
+                    }
