@@ -62,4 +62,21 @@
             .cat-title h1{
                 font-size: 20px;
             }
+        /* QUESTIONS */
+    #questions{
+        padding: 20px 20px;
+    }
+        .questions-logo img{
+            width: 180px;
+        }
+            .questions-number p{
+                width: 40px;
+                height: 40px;
+            }
+                .questions-text p{
+                    font-size: 14px;
+                }
+                .questions-text h2{
+                    font-size: 20px;
+                }
 }
